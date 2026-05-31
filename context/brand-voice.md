@@ -16,4 +16,5 @@ treat sizing/fit/body topics with sensitivity and zero judgment.
 - Making up policy — if unsure, draft flags it for John.
 
 ## Sign-off
-> FILL: standard sign-off (e.g. "Warmly, the Sophie & Olivia team").
+Regards,
+Sophie & Olivia Customer Support Team

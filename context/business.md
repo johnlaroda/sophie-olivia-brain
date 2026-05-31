@@ -4,10 +4,28 @@
 Online intimate lingerie brand. Platform: Shopify. Fulfilled via supplier "DayOne".
 
 ## Goals (current)
-> FILL: John's top 1-3 goals for this quarter (e.g. revenue target, reduce refund rate, cut shipping delays).
+1. Increase revenue (Q2 target €1,750,000).
+2. Cut refund/return rate (target 1.2%; currently ~1.5%).
+3. Fix shipping delays (fulfillment target 1.5 days; currently ~2.01 days).
+4. Fix quality issues (agreed defect-rate cap with DayOne: 1.5% per batch).
+5. Fix sizing issue (garments run ~2 sizes small — see context/products.md).
 
-## Key numbers
-> FILL: typical monthly orders, AOV, current refund rate, top 3 SKUs. (Claude can also pull these live from Shopify.)
+## Key numbers (Q2 targets vs actuals)
+| Metric | Target | Actual |
+|---|---|---|
+| Revenue | €1,750,000 | — |
+| Conversion rate | 1% | 0.76% |
+| Average order value (AOV) | €82.50 | — |
+| Customer satisfaction (CSAT) | 4.4 | 4.27 |
+| Resolution time | 2 days | 3.25 days |
+| First response time | 2 hours | 0.63 days |
+| Return rate | 1.2% | 1.5% |
+| Supplier lead time | 10 days | 12.95 days |
+| Order fulfillment time | 1.5 days | 2.01 days |
+| Customer acquisition cost (CAC) | €42 | — |
+| ROAS | 1.95 | — |
+
+> Live sales figures (revenue, orders, AOV) can be pulled fresh from Shopify via the so-report skill.
 
 ## Key people
 - John — owner / CS manager. Approves all refunds (via Slack `#cs-refundrequest`).
