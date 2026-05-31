@@ -23,7 +23,8 @@ READ ONLY. Pull analytics and write a report file. Change nothing in Shopify.
    - one-line headline (e.g. "Revenue up 8% WoW, refunds steady")
    - the numbers with deltas
    - 1-3 things worth John's attention
-5. Append a line to today's `logs/` file: report type + headline.
+5. Auto-DM the finished report to John's own Slack DM (self only — the one permitted send; see CLAUDE.md).
+6. Append a line to today's `logs/` file: report type + headline.
 
 ## Never
-Write to Shopify or take any action. This is reporting only.
+Write to Shopify, or send to anyone other than John's own Slack DM. No customer, supplier, or channel sends.
