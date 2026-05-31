@@ -1,7 +1,7 @@
 # Policies — Refunds, Exchanges, Precedents
 
 ## Refunds
-- All refunds require John's approval via Slack `#cs-refundrequest`.
+- All refunds require John's approval via Slack `#ops-return`.
 - Claude DRAFTS the refund-request post; it never issues a refund.
 - Return window: **30 days** from delivery. Items must be unused, unworn,
   complete, and in original condition and packaging. Returns showing wear,
@@ -22,7 +22,7 @@
 
 ## Precedents (John's past decisions)
 > FILL / GROW OVER TIME: notable rulings to keep replies consistent.
-> Claude should also search `#cs-refundrequest` for live precedent.
+> Claude should also search `#ops-return` for live precedent.
 
 ## Escalation
 - Unclear precedent → draft a note for John (do not guess).

@@ -58,10 +58,10 @@ All three operate at trust level **A (read & draft only)**.
 
 ### 1. `so-support` (refine existing `sophie--olivia-brand` skill)
 - **Input:** a Gorgias ticket.
-- **Process:** search Slack precedents (`#cs-hub`, `#cs-refundrequest`,
+- **Process:** search Slack precedents (`#cs-hub`, `#ops-return`,
   `#dayone-*`) + `context/policies.md` + `context/brand-voice.md`.
 - **Output:** a drafted reply written to `ops/drafts/`. Refund cases produce a
-  drafted `#cs-refundrequest` post for John to send.
+  drafted `#ops-return` post for John to send.
 - **Never sends.** No customer-facing or refund action is taken autonomously.
 
 ### 2. `so-supplier` (new)

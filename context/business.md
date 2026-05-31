@@ -38,7 +38,7 @@ live AUD sales against the AUD targets below.
 > Live sales figures (revenue, orders, AOV) can be pulled fresh from Shopify via the so-report skill — all in AUD, matching the targets above.
 
 ## Key people
-- John — owner / CS manager. Approves all refunds (via Slack `#cs-refundrequest`).
+- John — owner / CS manager. Approves all refunds (via Slack `#ops-return`).
 - DayOne — supplier (orders, stock, quality). See `context/suppliers.md`.
 
 ## Tools

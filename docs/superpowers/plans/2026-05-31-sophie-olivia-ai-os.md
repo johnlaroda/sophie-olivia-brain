@@ -139,7 +139,7 @@ Online intimate lingerie brand. Platform: Shopify. Fulfilled via supplier "DayOn
 > FILL: typical monthly orders, AOV, current refund rate, top 3 SKUs. (Claude can also pull these live from Shopify.)
 
 ## Key people
-- John — owner / CS manager. Approves all refunds (via Slack `#cs-refundrequest`).
+- John — owner / CS manager. Approves all refunds (via Slack `#ops-return`).
 - DayOne — supplier (orders, stock, quality). See `context/suppliers.md`.
 
 ## Tools
@@ -257,7 +257,7 @@ Create `context/policies.md`:
 # Policies — Refunds, Exchanges, Precedents
 
 ## Refunds
-- All refunds require John's approval via Slack `#cs-refundrequest`.
+- All refunds require John's approval via Slack `#ops-return`.
 - Claude DRAFTS the refund-request post; it never issues a refund.
 > FILL: standard refund window (e.g. 30 days), hygiene/intimate-apparel return
 > restrictions, who pays return shipping.
@@ -267,7 +267,7 @@ Create `context/policies.md`:
 
 ## Precedents (John's past decisions)
 > FILL / GROW OVER TIME: notable rulings to keep replies consistent.
-> Claude should also search `#cs-refundrequest` for live precedent.
+> Claude should also search `#ops-return` for live precedent.
 
 ## Escalation
 - Unclear precedent → draft a note for John (do not guess).
@@ -412,10 +412,10 @@ a refund. Output is a draft file for John to review and send.
    (order #, SKU, issue). Check recent messages first, widen if needed:
    - order/shipping → `#dayone-orders`
    - product/quality → `#dayone-quality`
-   - refund/exchange → `#cs-refundrequest`
+   - refund/exchange → `#ops-return`
    - policy → `#cs-hub`, `#cs-updates-announcements`
 4. Draft a reply in brand voice. If the case needs a refund, ALSO draft a
-   `#cs-refundrequest` post (order #, issue summary, amount, recommendation).
+   `#ops-return` post (order #, issue summary, amount, recommendation).
 5. If precedent is unclear or policy is missing, do NOT guess — write a
    "NEEDS JOHN" note at the top of the draft.
 6. Write the draft to `ops/drafts/YYYY-MM-DD-ticket-<id>.md` containing:

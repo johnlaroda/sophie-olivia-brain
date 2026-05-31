@@ -20,10 +20,10 @@ a refund. Output is a draft file for John to review and send.
    (order #, SKU, issue). Check recent messages first, widen if needed:
    - order/shipping → `#dayone-orders`
    - product/quality → `#dayone-quality`
-   - refund/exchange → `#cs-refundrequest`
+   - refund/exchange → `#ops-return`
    - policy → `#cs-hub`, `#cs-updates-announcements`
 4. Draft a reply in brand voice. If the case needs a refund, ALSO draft a
-   `#cs-refundrequest` post (order #, issue summary, amount, recommendation).
+   `#ops-return` post (order #, issue summary, amount, recommendation).
 5. If precedent is unclear or policy is missing, do NOT guess — write a
    "NEEDS JOHN" note at the top of the draft.
 6. Write the draft to `ops/drafts/YYYY-MM-DD-ticket-<id>.md` containing:
