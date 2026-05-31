@@ -14,7 +14,13 @@ Practical guidance for support replies:
   behaviour, not a defect. Validate it kindly and steer toward the right size.
 - Recommend customers size UP (typically by 2) versus their usual size.
 - Until the size chart is corrected, set expectations proactively where possible.
-> FILL (John): exact size chart link + any per-line band/cup conversion table, once finalised.
+
+**Size charts:** Most products have a size chart on their individual Shopify
+product page — check the specific product page for the customer's item first.
+Some products don't yet have a chart: those are still being fixed while we wait
+for correct measurements from the supplier (DayOne). If a customer asks about
+sizing for a product with no chart, give the general size-up guidance above and,
+if needed, flag for John rather than quoting measurements we don't have.
 
 ## Common fit complaints & standard answers
 These are draft standard answers built around the "runs ~2 sizes small" issue.
