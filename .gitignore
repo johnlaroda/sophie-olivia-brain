@@ -1,0 +1,11 @@
+# OS noise
+Thumbs.db
+.DS_Store
+
+# Drafts and reports are working artifacts, not source — keep dirs, ignore contents
+ops/drafts/*
+ops/reports/*
+logs/*
+!ops/drafts/.gitkeep
+!ops/reports/.gitkeep
+!logs/.gitkeep
