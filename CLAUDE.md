@@ -35,3 +35,5 @@ lingerie business. This file orients you every session.
 - `so-sizing-watch` — quantify sizing-driven returns/tickets (the "runs small" issue).
 - `so-report` — daily sales/BI snapshot (auto-DM'd to John).
 - `so-weekly` — Monday Q2 scorecard review (auto-DM'd to John).
+- `so-morning-briefing` — run each morning: snapshot + stuck-order/refund/quality
+  scan, DM'd to John with a "needs your decision" list (draft-and-ask).
