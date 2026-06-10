@@ -1,16 +1,26 @@
 # Suppliers — DayOne
 
-## Contacts
-- **Catherine** (`@Catherine Dayone`) — primary POC. Always include her.
-- **Shirley** (`@Shirley Dayone`) — agent who replaced Alina; tag her going forward.
+## Contacts (verified Slack IDs)
+- **Catherine** — primary POC, always include. Slack: `<@U07QG6PTFC4>` (`@Catherine Dayone`).
+- **Shirley** — replaced Alina; tag going forward. Slack: `<@U0B6FPDRKPH>` (`@Shirley Dayone`).
 - (Alina is no longer at DayOne — do not tag.)
 
 ## Channels
+> ⚠️ **All `#dayone-*` channels are Slack Connect (externally shared with DayOne).**
+> APIs/bots **cannot post** into them — a direct send fails with
+> `mcp_externally_shared_channel_restricted`. To "send" a supplier message, stage an
+> **unsent draft** with `slack_send_message_draft`; it appears in the channel for John
+> to review and send with one click. (This is fully compatible with draft-and-ask.)
+
 - `#dayone-general` — general questions/policies
-- `#dayone-fulfillment` — fulfillment status, delay lists, dispatch issues
+- `#dayone-fulfillment` — **C0ABSSUG0P2** — fulfillment status, delay lists, lost/stuck parcels, reships, new tracking
 - `#dayone-orders` — order-specific issues
 - `#dayone-quality` — defects, material/quality issues
 - `#dayone-products` — product/range questions
+
+**House format in `#dayone-fulfillment`** (match it): tag Catherine + Shirley, the
+order #, the **full ship-to address**, then "let me know if you'll generate a new
+tracking — thanks!"
 
 ## SLAs / expectations
 - DayOne's stated normal order-to-dispatch time: **~5 days** (≥3 days to reach
